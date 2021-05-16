@@ -1,0 +1,73 @@
+/*CSS reset settings here*/
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+#background {
+    width: 970px;
+    height: fit-content;
+    background-color: royalblue;
+    padding: 10px;
+}
+#side_panel, #article_list li a, #footer p a {
+    color: aquamarine;
+}
+span {
+    color: slateblue;
+}
+h1, h2, p, #article_list, #footer {
+    color: silver;
+}
+#heading {
+    height: 80px;
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#side_panel {
+    background-color: darkcyan;
+    align-items: center;
+    padding: 20px;
+    vertical-align: top;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 20px;
+    display: inline-block;
+}
+#main_panel {
+    padding-left: 20px;
+}
+#minor_panel {
+    padding-left: 20px;
+}
+#article {
+    background-color: midnightblue;
+    align-items: center;
+    padding: 20px;
+    vertical-align: top;
+    border-radius: 20px;
+    width: 690px;
+    height: fit-content;
+    display: inline-block;
+}
+h2 {
+    margin: 20px 0
+}
+#article_list {
+    padding-left: 20px;
+    margin-top: 20px;
+}
+#footer {
+    background-color: dimgray;
+    align-items: center;
+    display: flex;
+    padding-left: 20px;
+    vertical-align: bottom;
+    border-radius: 20px;
+    height: 60px;
+    margin-top: 20px;
+}
